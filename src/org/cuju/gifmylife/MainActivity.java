@@ -80,7 +80,7 @@ public class MainActivity extends Activity {
 			}
 		});
 		IMG_DIR.mkdirs();
-		
+		/*
 		NotificationCompat.Builder mBuilder =
 		        new NotificationCompat.Builder(this)
 		        .setSmallIcon(R.drawable.notif)
@@ -90,7 +90,7 @@ public class MainActivity extends Activity {
 		NotificationManager mNotificationManager =
 		    (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 		
-		mNotificationManager.notify(1, mBuilder.build()); 
+		mNotificationManager.notify(1, mBuilder.build()); */
 	}
 
 	@Override
