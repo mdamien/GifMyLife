@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/take_picture_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Take today picture" />
+
+            <Button
+                android:id="@+id/create_gif_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="GIF My Life!" />
+            <Button
+                android:id="@+id/view_gif_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="View GIF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
