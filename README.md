@@ -1,7 +1,7 @@
 Gif My Life
 =========
 
-Gif My Life is a hooby project to create a simple Android application with a simple task:
+Gif My Life is a hobby project to create a simple Android application with a simple task:
 
 Take a photo of you each day and make a GIF of it to show to your friends !
 
